@@ -1,0 +1,185 @@
+ 
+ 
+ 
+ 
+Nombre: 
+Victor Tadeo Villalobos Villanueva 
+ 
+Materia: Comunicación 
+ 
+Carrera: Ingeniería de software  
+ 
+Maestra: Aranza Paredes 
+ 
+ 
+ 
+Fecha: 24/04/2026                Cozumel, Quintana Roo 
+ 
+
+ 
+Contenido 
+Introducción ................................................................................................................... 3 
+Proyecto: El blog multiformato ......................................................................................... 3 
+Personalización vs. Despersonalización ........................................................................... 4 
+El Dilema del Poder y la Responsabilidad ......................................................................... 5 
+La IA sustituye o potencia la creatividad ........................................................................... 5 
+Conclusión ..................................................................................................................... 6 
+Referencias bibliográficas ............................................................................................... 7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Introducción  
+La educación en el siglo XXI atraviesa una metamorfosis sin precedentes, 
+impulsada por la integración masiva de tecnologías digitales que han dejado de 
+ser simples herramientas de apoyo para convertirse en sistemas complejos de 
+mediación. Dentro de este ecosistema, la Inteligencia Artificial (IA) destaca como 
+el motor de cambio más disruptivo, prometiendo resolver deudas históricas de 
+acceso y calidad educativa. Sin embargo, esta promesa no está exenta de 
+tensiones éticas, sociales y pedagógicas. El presente ensayo tiene como objetivo 
+reflexionar sobre el impacto de la IA en los procesos de enseñanza y aprendizaje, 
+analizando mi experiencia personal en la creación de un blog multiformato sobre 
+tecnología y jóvenes, y contrastando estos hallazgos con fuentes académicas que 
+abordan desde la personalización del aprendizaje hasta el dilema del poder entre 
+el sistema y el usuario. 
+ 
+Proyecto: El blog multiformato 
+El desarrollo del "Blog Multiformato sobre Tecnología y Jóvenes" fue un 
+ejercicio que trascendió la mera entrega académica. Como estudiante, enfrentarse 
+a la gestión de una página web (utilizando GitHub, no porque sea más profesional 
+que las sugeridas como Wix o WordPress, sino porque es la que se usar) y la 
+creación de contenidos que nos permite explorar y comprender cómo la tecnología 
+moldea nuestra capacidad creativa. 
+ 
+Durante el proceso, mi equipo y yo nos enfocamos en el tema "IA en 
+educación". Esta investigación fue reveladora. No solo aprendimos sobre el 
+funcionamiento de algoritmos de machine learning, sino que vivimos la paradoja 
+del usuario: mientras intentábamos "dominar" las herramientas de diseño y edición 
+para comunicar nuestro mensaje, a menudo nos sentíamos guiados por las 
+sugerencias de las tecnologías que utilizábamos, que, aunque no es nuestra 
+intención, la realidad es que ya están integradas literalmente en todo, ya sea en 
+mayor o menor medida. Esto me llevó a cuestionar uno de los puntos centrales de 
+nuestro tema: ¿quién tiene realmente el poder? ¿El usuario o la tecnológica que 
+define cómo y qué se puede crear? 
+ 
+Este trabajo también fue un pilar fundamental. La necesidad de coordinar 
+visiones distintas sobre un tema tan cambiante como la IA nos obligó a desarrollar 
+habilidades interpersonales y de resolución de conflictos, competencias que, 
+irónicamente, son las que la IA aún no puede replicar con éxito (Jara & Ochoa, 
+2020). 
+ 
+Personalización vs. Despersonalización 
+Uno de los aportes más significativos de la IA es la capacidad de 
+personalizar la educación. Según Jara y Ochoa (2020), los sistemas de enseñanza 
+adaptativos permiten ajustar las trayectorias educativas a las necesidades 
+individuales de cada estudiante, algo que anteriormente solo era posible en clases 
+uno a uno. 
+ 
+Sin embargo, desde mi perspectiva, esta personalización plantea un riesgo 
+de despersonalización social. La educación es una actividad social y colectiva, es 
+decir, que es el cúmulo de vivencias y experiencias. Por ejemplo: si veo un bicho 
+rojo, por mis propios deseos no lo puedo nombrar hormiga tipo demonio, ya existe 
+un censo científico y se debe respetar. Un estudiante pasa la mayor parte de su 
+tiempo interactuando con un tutor; aprende de lo que le enseña el profesor y de 
+sus errores revisados por el profesor para fortalecer sus flaquezas. La IA es 
+excelente para la instrucción (el "qué" y el "cómo"), pero la educación integral 
+requiere del "porqué" ético y social que solo surge en la conversación con otro 
+humano. 
+ 
+Además, existe la preocupación por el sesgo algorítmico. Los algoritmos 
+son a menudo "cajas negras" opacas. Si una IA de tutoría ha sido entrenada con 
+datos que reflejan prejuicios socioculturales, podría terminar perpetuando errores 
+o prejuicios en lugar de eliminarlos. Como señala el BID (2020), el riesgo de que la 
+IA amplifique las brechas existentes para los sectores más vulnerables es latente 
+si no se implementan políticas de uso ético y responsable. 
+ 
+El Dilema del Poder y la Responsabilidad 
+En el transcurso del blog, profundizamos en la idea de que la tecnología 
+moderna funciona de forma profunda y oculta, influyendo en cómo actuamos y 
+pensamos. Este "poder dominante" se manifiesta en la dependencia tecnológica. 
+Durante la creación del blog, notamos que si una herramienta fallaba (por ejemplo, 
+el editor de video en la nube o el host del sitio web (es donde se guarda la página 
+para poder acceder a ella)), el trabajo se detiene. Esta vulnerabilidad es el precio 
+de la eficiencia. 
+ 
+La responsabilidad es otro eje de conflicto. En el ámbito educativo, cuando 
+un software de IA califica erróneamente un ensayo o sugiere una ruta de 
+aprendizaje equivocada, ¿de quién es la culpa? ¿Del desarrollador, del docente 
+que implementó la herramienta o del usuario que aceptó los términos y 
+condiciones sin leerlos? La opacidad de los algoritmos de deep learning hace que, 
+a veces, ni siquiera los programadores sepan con certeza cómo se emitió un juicio 
+(Chen, 2018, citado en Jara & Ochoa, 2020). Esta "inexistente responsabilidad" 
+del sistema artificial es uno de los mayores desafíos éticos que debemos 
+enfrentar. 
+ 
+La IA sustituye o potencia la creatividad 
+Un punto de reflexión personal muy intenso fue el impacto de la IA en la 
+creatividad y los procesos en que se enseñan estas herramientas de edición como 
+Photoshop y demás herramientas que, como mencioné, ya integran funciones con 
+IA generativa. ¿La tecnología potencia o reemplaza nuestra alma creadora? En el 
+desarrollo de las funciones gráficas para nuestro blog (ojo, como se ve, no del 
+contenido), utilizamos herramientas que sugieren paletas de colores y layouts. 
+Sentí que mi creatividad se expandía porque podía ejecutar ideas complejas en 
+segundos, pero también sentí que mis opciones estaban limitadas por las 
+capacidades de mi IDE antigravity (Entorno de Desarrollo Integrado de Google). 
+ 
+Como se planteó, en este análisis, el poder creativo ya no está limitado por 
+las habilidades técnicas del individuo, sino por su capacidad de interactuar con lo 
+artificial. Para los jóvenes de ahora, la creatividad ya no es un acto puramente 
+solitario e inspiracional, sino complementados con herramientas generativas 
+metidas a fuerzas, en especial con esta burbuja de la IA. 
+ 
+Conclusión  
+La Inteligencia Artificial tiene el poder de transformar la educación, 
+haciéndola más eficiente y personalizada, pero también más vigilada y 
+potencialmente sesgada. Mi experiencia con el blog sobre tecnología y el uso que 
+le da mi generación, las más jóvenes, me ha enseñado que el verdadero poder no 
+reside en la herramienta ni en el usuario de forma aislada, sino en la relación que 
+establecemos con ella y los conocimientos que nosotros podemos nutrir y 
+potenciar. No podemos vivir sin la tecnología, pero tampoco podemos permitir que 
+ella decida nuestras decisiones y nuestros límites. En mi futuro profesional deseo 
+saber y usar el de desarrollar y utilizar estas herramientas no solo para aumentar 
+la productividad, sino para potenciar la humanidad, garantizando que la tecnología 
+sea siempre una expansión de nuestras capacidades y no un reemplazo de 
+nosotros. 
+ 
+Referencias bibliográficas 
+Jara y Ocho. (2020). Usos y efectos de las IA en educación 
+https://es.scribd.com/document/1000838366/Jara-y-Ocho-2020-Usos-y-efectos-de-
+los-IA-en-educacion  
+ 
+Andrea. (2023, agosto 31). ¿Qué peligros tiene la IA? AI Lab School. 
+https://ailabschool.com/que-peligros-tiene-la-ia/  
+ 
+Daniel, P. (2025, mayo 14). Adicción a la inteligencia artificial: la nueva amenaza. 
+Sinopsis Centro; Sinopsis Centro de Adicciones. 
+https://asesorterapeutico.com/adiccion-a-la-inteligencia-artificial/  
+ 
+Delgado, P. (2025, mayo 30). ¿La IA generativa puede dañar el aprendizaje? 
+Observatorio / Instituto para el Futuro de la Educación; Instituo para el Futuro de la 
+Educación. https://observatorio.tec.mx/la-ia-generativa-puede-afectar-el-
+aprendizaje/  
+ 
+Grupo Fórmula [@GrupoFormula-RF]. (s/f). IA en el trabajo: ¿Evolución o 
+dependencia peligrosa? Recuperado de. 
+https://www.youtube.com/shorts/p4UiFsz3-pw  
+ 
+ 
+ 
+  

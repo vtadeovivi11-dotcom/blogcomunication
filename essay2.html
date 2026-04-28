@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensayo 2 | IAnova</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0f172a',
+                        darker: '#020617',
+                        accent: '#8b5cf6',
+                        accentHover: '#7c3aed',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-darker text-slate-200 font-sans antialiased min-h-screen flex flex-col selection:bg-accent selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-500 to-accent flex items-center justify-center font-bold text-white shadow-lg shadow-accent/20">IA</div>
+                        <span class="font-bold text-xl tracking-tight">IA<span class="text-accent">+</span>educación</span>
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+                        <a href="article.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Artículo</a>
+                        <a href="multimedia.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Multimedia</a>
+                        <a href="review.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Reseña</a>
+                        <a href="essays.html" class="text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Ensayos</a>
+                        <a href="resources.html" class="text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Recursos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Article Content -->
+    <main class="flex-grow pt-24 pb-20">
+        <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <a href="essays.html" class="inline-flex items-center text-accent hover:text-accentHover mb-8 transition-colors">
+            <a href="resources.html" class="inline-flex items-center text-accent hover:text-accentHover mb-8 transition-colors">
+                <svg class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                Volver a Ensayos
+            </a>
+
+            <!-- Article Header -->
+            <header class="mb-10">
+                <div class="inline-block px-3 py-1 mb-4 rounded-full bg-pink-500/20 text-pink-400 text-sm font-semibold tracking-wide">Ensayo 2</div>
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">La IA desde una Perspectiva Crítica</h1>
+                <div class="flex items-center gap-4 text-gray-400 text-sm">
+                    <span>Por Hannia Ines Coral Ortega</span>
+                </div>
+            </header>
+
+            <!-- Prose/Text Content -->
+            <div class="prose prose-invert prose-lg max-w-none prose-a:text-accent hover:prose-a:text-accentHover">
+                <p class="mb-6 text-gray-400">
+                    Cuando empezamos a trabajar el tema de la inteligencia artificial en la educación, al inicio lo veía como algo interesante. Sabía que la IA ya se estaba usando en muchas cosas, pero no había reflexionado realmente sobre cómo impacta en el aprendizaje o en la forma en la que nosotros, como jóvenes, hacemos nuestras tareas. Especialmente con la creación de mi blog, mi perspectiva cambió bastante, porque pasé de ver la IA como una herramienta más, a entender que tiene un impacto mucho más profundo en la educación actual y en nuestra generación.
+                </p>
+                <p class="mb-6 text-gray-400">
+                    En mi caso, mi participación fue hacer una reseña crítica sobre la aplicación ChatGPT. Elegí esta herramienta porque ya la había usado antes, pero nunca me había detenido a analizarla de forma más seria. Como muchos jóvenes hoy en día, normalmente la utilizaba para resolver dudas o ayudarme con tareas, sin cuestionar cómo funcionaba o qué implicaciones tenía su uso constante en mi aprendizaje. Este proyecto me permitió observar algo que ya formaba parte de mi vida diaria, pero desde una perspectiva más crítica.
+                </p>
+                <p class="mb-6 text-gray-400">
+                    Al investigar más a fondo, me di cuenta de que la inteligencia artificial no es solo una “máquina que responde”, sino que analiza patrones del lenguaje para generar respuestas. Esto me hizo reflexionar en algo importante, aunque las respuestas parecen correctas, no siempre lo son completamente, y ahí es donde entra el pensamiento crítico, algo fundamental en los estudiantes de nuestra generación. También entendí que la IA no tiene opiniones propias, sino que funciona con base en datos, lo cual cambia la forma en la que debemos interpretar la información.
+                </p>
+                <p class="mb-6 text-gray-400">
+                    Desde un punto de vista analítico, herramientas como ChatGPT tienen muchas ventajas en la educación. Por ejemplo, facilitan el acceso rápido a la información, lo cual es muy útil para los jóvenes que buscan aprender de manera más eficiente. También ayudan a entender temas complejos de forma sencilla, adaptándose al nivel de cada persona. Esto ha cambiado la forma en la que muchos estudiantes estudian, ya que ahora pueden aprender a su propio ritmo y resolver dudas en el momento en que surgen. Además, el hecho de que esté disponible en cualquier momento hace que sea un recurso muy accesible. Para muchos jóvenes, esto representa una gran ayuda, especialmente cuando no tienen acceso inmediato a profesores o apoyo académico. En este sentido, la tecnología está transformando la forma en la que aprendemos y resolvemos problemas, haciendo el aprendizaje más dinámico y flexible. (Santillán, 2025)
+                </p>
+                <p class="mb-6 text-gray-400">
+                    Otro punto importante es que la inteligencia artificial también fomenta nuevas formas de aprender. Por ejemplo, permite hacer preguntas más específicas, repetir explicaciones las veces que sea necesario y explorar temas con mayor libertad. Esto puede motivar a los estudiantes a ser más curiosos y a investigar más por su cuenta. En algunos casos, incluso puede ayudar a mejorar la confianza académica, ya que los jóvenes se sienten más seguros al resolver dudas sin sentirse juzgados. (Santillán, 2025)
+                </p>
+                <p class="mb-6 text-gray-400">
+                    Sin embargo, también existen desventajas importantes. Una de las principales es la dependencia. En la actualidad, muchos jóvenes pueden acostumbrarse a pedirle todo a la inteligencia artificial, lo que puede afectar habilidades como el pensamiento crítico, la creatividad y la capacidad de resolver problemas por cuenta propia. Esto no solo impacta en la educación, sino también en el desarrollo personal. Otra desventaja es la desinformación. Aunque la IA da respuestas coherentes, no siempre son correctas o actualizadas. Si los jóvenes no verifican la información, pueden aprender cosas incorrectas. Esto es preocupante, ya que cada vez más personas confían en la tecnología sin cuestionarla. Por eso, es importante desarrollar el hábito de comparar información y no depender de una sola fuente. (Cegos Team, 2024)
+                </p>
+                <p class="mb-6 text-gray-400">
+                    También hay un impacto en la salud mental y la forma en la que los jóvenes enfrentan el estudio. Por un lado, la IA puede reducir el estrés al facilitar tareas, pero por otro, puede generar presión por depender de ella o por sentir que sin estas herramientas no pueden rendir igual. Además, el uso constante de tecnología puede generar cansancio mental o distracción si no se maneja de forma adecuada. (Cegos Team, 2024)
+                </p>
+                <p class="mb-6 text-gray-400">
+                    En cuanto a las relaciones sociales, el uso constante de la tecnología también influye. Aunque herramientas como ChatGPT no sustituyen la interacción humana, sí cambian la forma en la que los jóvenes buscan ayuda, ya que muchas veces prefieren acudir a la tecnología en lugar de preguntar a otras personas. Esto puede afectar la comunicación, el trabajo en equipo y la forma en la que se construyen las relaciones. Por otro lado, la inteligencia artificial también tiene un impacto en el futuro profesional de los jóvenes. Cada vez más trabajos requieren el uso de tecnología, por lo que aprender a usar estas herramientas de manera responsable puede ser una ventaja. Saber utilizarlas correctamente puede mejorar la productividad y abrir nuevas oportunidades laborales. Sin embargo, también existe el riesgo de depender demasiado de ellas y no desarrollar habilidades propias, lo cual puede ser un problema a largo plazo. (Universidad CESUMA, 2025)
+                </p>
+                <p class="mb-6 text-gray-400">
+                    Además, es importante considerar que el mundo laboral está cambiando rápidamente debido a la tecnología. Muchas profesiones están evolucionando o incluso desapareciendo, mientras que surgen nuevas áreas relacionadas con la inteligencia artificial. Esto hace necesario que los jóvenes se adapten y desarrollen habilidades como el pensamiento crítico, la creatividad y la capacidad de aprendizaje continuo. (Universidad CESUMA, 2025)
+                </p>
+                <p class="mb-6 text-gray-400">
+                    A nivel personal, este proyecto me ayudó a desarrollar un pensamiento más crítico. Ahora entiendo que no solo se trata de usar la tecnología, sino de saber cómo usarla. Esto es algo clave para los jóvenes hoy en día, ya que estamos creciendo en un mundo donde la tecnología está presente en casi todos los aspectos de la vida diaria. También aprendí a ser más consciente del tiempo que paso usando herramientas digitales y de la forma en la que influyen en mi aprendizaje. Antes no cuestionaba tanto su uso, pero ahora entiendo que es importante encontrar un equilibrio entre utilizar la tecnología y desarrollar mis propias habilidades.
+                </p>
+                <p class="mb-6 text-gray-400">
+                    En general, la inteligencia artificial no es ni totalmente buena ni totalmente mala. Su impacto en los jóvenes depende del uso que se le dé. Puede ser una herramienta muy útil para aprender y desarrollarse, pero también puede convertirse en un obstáculo si se usa de manera incorrecta.
+                </p>
+                <p class="mb-6 text-gray-400">
+                    En conclusión, trabajar este tema me permitió entender mejor cómo la tecnología, especialmente la inteligencia artificial, está transformando la educación y la vida de los jóvenes. Aprendí que es importante mantener un equilibrio, usar estas herramientas de forma responsable y no dejar de desarrollar nuestras propias habilidades. Este análisis no solo me ayudó a entender mejor la IA, sino también a reflexionar sobre el papel que tiene la tecnología en nuestra generación y en nuestro futuro.
+                </p>
+
+                <h2 class="text-2xl font-bold mt-10 mb-4 text-white">Referencias</h2>
+                <ul class="list-disc pl-6 text-gray-400 mb-6">
+                    <li>Cegos Team. (2024, junio 21). El impacto de la inteligencia artificial (IA) en el aprendizaje digital. <a href="https://www.cegos.es/insights/blog/transformacion-digital/ia-educacion" target="_blank">https://www.cegos.es/insights/blog/transformacion-digital/ia-educacion</a></li>
+                    <li>Santillán, M. L. (2025, 1 diciembre). Grandes desafíos del uso de la IA en la escuela. Ciencia UNAM. <a href="https://ciencia.unam.mx/leer/1633/grandes-desafios-del-uso-de-la-ia-en-la-escuela-" target="_blank">https://ciencia.unam.mx/leer/1633/grandes-desafios-del-uso-de-la-ia-en-la-escuela-</a></li>
+                    <li>Universidad CESUMA. (2025, mayo 14). La IA en la evolución del aprendizaje. <a href="https://cesuma.edu.mx/2025/05/14/la-ia-en-la-evolucion-del-aprendizaje/" target="_blank">https://cesuma.edu.mx/2025/05/14/la-ia-en-la-evolucion-del-aprendizaje/</a></li>
+                </ul>
+
+                <div class="mt-12 p-6 bg-white/5 border border-white/10 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-1">Documento Original</h3>
+                        <p class="text-gray-400 text-sm">Visualiza o descarga el ensayo en formato PDF.</p>
+                    </div>
+                    <a href="documentos_com/EnsayoHannia.pdf" download="Ensayo_Hannia.pdf" target="_blank" class="px-6 py-3 rounded-xl bg-accent hover:bg-accentHover text-white font-semibold transition-all shadow-[0_0_15px_rgba(139,92,246,0.3)] flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                        Ver PDF
+                    </a>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer class="bg-darker border-t border-white/10 py-10 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-gray-500 text-sm">© 2026 Proyecto Universitario.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

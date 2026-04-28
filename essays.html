@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensayos del Equipo | IAnova</title>
+    <meta name="description" content="Ensayos individuales de los integrantes del equipo sobre el papel de la IA en la educación.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0f172a',
+                        darker: '#020617',
+                        accent: '#8b5cf6',
+                        accentHover: '#7c3aed',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-darker text-slate-200 font-sans antialiased min-h-screen flex flex-col selection:bg-accent selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-500 to-accent flex items-center justify-center font-bold text-white shadow-lg shadow-accent/20">IA</div>
+                        <span class="font-bold text-xl tracking-tight">IA<span class="text-accent">+</span>educación</span>
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+                        <a href="article.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Artículo</a>
+                        <a href="multimedia.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Multimedia</a>
+                        <a href="review.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Reseña</a>
+                        <a href="essays.html" class="text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Ensayos</a>
+                        <a href="resources.html" class="text-gray-300 hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Recursos</a>
+                    </div>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-400 hover:text-white focus:outline-none p-2">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden glass border-t border-white/10 absolute w-full">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+                <a href="article.html" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Artículo</a>
+                <a href="multimedia.html" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Multimedia</a>
+                <a href="review.html" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Reseña</a>
+                <a href="essays.html" class="text-white block px-3 py-2 rounded-md text-base font-medium">Ensayos</a>
+                <a href="resources.html" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Recursos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-24 pb-20 relative overflow-hidden">
+        <!-- Background elements -->
+        <div class="absolute top-1/4 left-0 w-96 h-96 bg-accent/10 rounded-full blur-[100px] pointer-events-none"></div>
+        <div class="absolute bottom-1/4 right-0 w-96 h-96 bg-blue-500/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <header class="text-center mb-16">
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Perspectivas <span class="gradient-text">Individuales</span></h1>
+                <p class="text-xl text-gray-400 max-w-2xl mx-auto">Explora los ensayos desarrollados por los 4 integrantes de nuestro equipo. Diferentes visiones sobre un mismo futuro educativo.</p>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Card Ensayo 1 -->
+                <a href="essay1.html" class="essay-card group block glass p-8 rounded-3xl border border-white/10 hover:border-accent/50 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-bl-full z-0 transition-transform group-hover:scale-110"></div>
+                    <div class="relative z-10 flex flex-col h-full">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-500 to-accent flex items-center justify-center font-bold text-white shadow-lg">1</div>
+                            <span class="text-sm font-semibold text-accent tracking-widest uppercase">Wendy Daiana Moratoya Ceballos</span>
+                        </div>
+                        <h2 class="text-2xl font-bold mb-3 text-white group-hover:text-accent transition-colors">El Impacto de la Inteligencia Artificial en la Educación</h2>
+                        <p class="text-gray-400 mb-6 flex-grow">Un análisis sobre cómo la IA está transformando las formas de aprender, con un enfoque en sus ventajas y los retos como la dependencia y desinformación.</p>
+                        <div class="flex items-center justify-between mt-auto pt-6 border-t border-white/5">
+                            <span class="text-sm text-gray-500">Por Wendy Daiana</span>
+                            <span class="inline-flex items-center text-accent text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                                Leer Ensayo
+                                <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card Ensayo 2 -->
+                <a href="essay2.html" class="essay-card group block glass p-8 rounded-3xl border border-white/10 hover:border-pink-500/50 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-pink-500/10 rounded-bl-full z-0 transition-transform group-hover:scale-110"></div>
+                    <div class="relative z-10 flex flex-col h-full">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-pink-500 to-purple-500 flex items-center justify-center font-bold text-white shadow-lg">2</div>
+                            <span class="text-sm font-semibold text-pink-400 tracking-widest uppercase">Hannia Ines Coral Ortega</span>
+                        </div>
+                        <h2 class="text-2xl font-bold mb-3 text-white group-hover:text-pink-400 transition-colors">La IA desde una Perspectiva Crítica</h2>
+                        <p class="text-gray-400 mb-6 flex-grow">Una reflexión sobre cómo los jóvenes utilizan herramientas como ChatGPT en su día a día y la importancia de no perder el pensamiento crítico.</p>
+                        <div class="flex items-center justify-between mt-auto pt-6 border-t border-white/5">
+                            <span class="text-sm text-gray-500">Por Hannia Ines</span>
+                            <span class="inline-flex items-center text-pink-400 text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                                Leer Ensayo
+                                <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card Ensayo 3 -->
+                <a href="essay3.html" class="essay-card group block glass p-8 rounded-3xl border border-white/10 hover:border-emerald-500/50 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-bl-full z-0 transition-transform group-hover:scale-110"></div>
+                    <div class="relative z-10 flex flex-col h-full">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-emerald-500 to-teal-500 flex items-center justify-center font-bold text-white shadow-lg">3</div>
+                            <span class="text-sm font-semibold text-emerald-400 tracking-widest uppercase">Victor Tadeo Villalobos Villanueva</span>
+                        </div>
+                        <h2 class="text-2xl font-bold mb-3 text-white group-hover:text-emerald-400 transition-colors">La IA y el Futuro de la Educación</h2>
+                        <p class="text-gray-400 mb-6 flex-grow">Un análisis sobre el poder y la responsabilidad de la tecnología en el aprendizaje, cuestionando si la IA sustituye o potencia la creatividad humana.</p>
+                        <div class="flex items-center justify-between mt-auto pt-6 border-t border-white/5">
+                            <span class="text-sm text-gray-500">Por Victor Tadeo</span>
+                            <span class="inline-flex items-center text-emerald-400 text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                                Leer Ensayo
+                                <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Card Ensayo 4 -->
+                <a href="essay4.html" class="essay-card group block glass p-8 rounded-3xl border border-white/10 hover:border-amber-500/50 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 rounded-bl-full z-0 transition-transform group-hover:scale-110"></div>
+                    <div class="relative z-10 flex flex-col h-full">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-500 to-orange-500 flex items-center justify-center font-bold text-white shadow-lg">4</div>
+                            <span class="text-sm font-semibold text-amber-400 tracking-widest uppercase">Lizeth S. Sulub May</span>
+                        </div>
+                        <h2 class="text-2xl font-bold mb-3 text-white group-hover:text-amber-400 transition-colors">Próximamente...</h2>
+                        <p class="text-gray-400 mb-6 flex-grow">Este ensayo se encuentra actualmente en proceso de redacción y será publicado en breve.</p>
+                        <div class="flex items-center justify-between mt-auto pt-6 border-t border-white/5">
+                            <span class="text-sm text-gray-500">Por Lizeth S. Sulub May</span>
+                            <span class="inline-flex items-center text-amber-400 text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                                Leer Ensayo
+                                <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-darker border-t border-white/10 py-10 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-2">
+                <span class="font-bold text-lg tracking-tight">IA<span class="text-accent">+</span>educación</span>
+            </div>
+            <p class="text-gray-500 text-sm">© 2026 Proyecto Universitario por Victor, Hannia, Lizeth y Daiana.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

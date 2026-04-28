@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensayo 4 | IAnova</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0f172a',
+                        darker: '#020617',
+                        accent: '#8b5cf6',
+                        accentHover: '#7c3aed',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-darker text-slate-200 font-sans antialiased min-h-screen flex flex-col selection:bg-accent selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-500 to-accent flex items-center justify-center font-bold text-white shadow-lg shadow-accent/20">IA</div>
+                        <span class="font-bold text-xl tracking-tight">IA<span class="text-accent">+</span>educación</span>
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+                        <a href="article.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Artículo</a>
+                        <a href="multimedia.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Multimedia</a>
+                        <a href="review.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Reseña</a>
+                        <a href="essays.html" class="text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Ensayos</a>
+                        <a href="resources.html" class="text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Recursos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Article Content -->
+    <main class="flex-grow pt-24 pb-20">
+        <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <a href="essays.html" class="inline-flex items-center text-accent hover:text-accentHover mb-8 transition-colors">
+            <a href="resources.html" class="inline-flex items-center text-accent hover:text-accentHover mb-8 transition-colors">
+                <svg class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                Volver a Ensayos
+            </a>
+
+            <!-- Article Header -->
+            <header class="mb-10">
+                <div class="inline-block px-3 py-1 mb-4 rounded-full bg-amber-500/20 text-amber-400 text-sm font-semibold tracking-wide">Ensayo 4</div>
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">Próximamente...</h1>
+                <div class="flex items-center gap-4 text-gray-400 text-sm">
+                    <span>Por Lizeth S. Sulub May</span>
+                </div>
+            </header>
+
+            <!-- Prose/Text Content -->
+            <div class="prose prose-invert prose-lg max-w-none prose-a:text-accent hover:prose-a:text-accentHover">
+                <p class="lead text-xl text-gray-300 font-light mb-8">
+                    Este ensayo se encuentra actualmente en proceso de redacción y será publicado en breve.
+                </p>
+
+                <div class="p-8 border border-white/10 rounded-2xl bg-white/5 backdrop-blur-sm text-center">
+                    <svg class="w-12 h-12 text-gray-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <h3 class="text-xl font-bold text-white mb-2">En Desarrollo</h3>
+                    <p class="text-gray-400 text-sm">¡Vuelve pronto para leer este contenido!</p>
+                </div>
+
+                <div class="mt-12 p-6 bg-white/5 border border-white/10 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-1">Documento Original</h3>
+                        <p class="text-gray-400 text-sm">Visualiza o descarga el ensayo en formato PDF.</p>
+                    </div>
+                    <a href="documentos_com/#" download="Ensayo_Lizeth.pdf" target="_blank" class="px-6 py-3 rounded-xl bg-accent hover:bg-accentHover text-white font-semibold transition-all shadow-[0_0_15px_rgba(139,92,246,0.3)] flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+                        Ver PDF
+                    </a>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer class="bg-darker border-t border-white/10 py-10 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-gray-500 text-sm">© 2026 Proyecto Universitario.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
