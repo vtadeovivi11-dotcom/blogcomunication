@@ -1,0 +1,157 @@
+La IA en la educación 
+La IA en educación no es una herramienta neutral: es un sistema diseñado que 
+vuelve a definir quién aprende, cómo piensa y quién decide. 
+En 2026 nadie pregunta si la IA entra al aula, literal ya está. ChatGPT tiene 700 
+millones de usuarios y 64% de niños usan chatbots para tareas (Andina, 2026). 
+Es un “gigante de algoritmos y corporaciones” que no te obliga, te acomoda. 
+La principal aportación de la lA radica en su capacidad de adaptación. Los 
+sistemas generativos permiten "adaptar contenidos, ritmo y ejercicios según las 
+necesidades del estudiante", lo que conlleva a una respuesta directa al reto de 
+analizar, aprender y razonar. 
+El acceso flexible al conocimiento que aporta, como los recursos 
+personalizados y las consultas inmediatas amplían las oportunidades de 
+aprendizaje 
+fuera del horario escolar formal. 
+ 
+La ilusión de control es esta: decides usar ChatGPT para el ensayo y entonces 
+el sistema fue diseñado para darte la respuesta rápida, no para que pienses. 
+“Lo que hace mal son los usuarios que no saben usarla para no trabajar”. El 
+problema no es uno mismo procrastinando. El problema es que la app está 
+hecha para que procrastines pensando que uno avanza. 
+La UNAM lo confirma: riesgo de “pérdida de habilidades críticas o uso no 
+reflexivo” (Martínez Bonilla, 2025). El Tec lo midió: 30% de alumnos redujo 
+“significativamente el tiempo en tareas complejas” (Conecta, 2025). ¿Eficiencia 
+o skip mental? Aguirre (2024) dice que la IA influye en productividad 
+académica, pero Del Cisne Loján. (2024) advierten las “Consecuencias de la 
+Dependencia de la IA en Habilidades Críticas”. Es decir, te vuelves más rápido, 
+pero menos tú, dejas de pensar de analizar de razones y cuestionarte. 
+La creatividad humana no se extingue: se expande. La IA te da “nuevos 
+lenguajes”. Un estudiante de UVM usó IA para “identificar patrones en 
+experimentos y contrastar con literatura científica”, eso es aprender con IA. 
+La UNESCO (2024) interviene en esta discusión mediante la publicación de 
+Marcos de competencias en materia de IA para estudiantes y docentes, donde 
+se establece un límite de edad recomendado de 13 años para el uso de IA en 
+entornos escolares. El principio rector es claro: el poder creativo 
+contemporáneo reside en “la capacidad de dialogar con lo artificial”. Dicho 
+diálogo exige verificación constante, dado que “las herramientas de IA pueden 
+generar información inexacta o incompleta”. 
+ 
+ 
+
+Responsabilidad: el vacío de rendición de cuentas. 
+El mayor poder de la tecnología está en su capacidad de actuar en el mundo, 
+pero sin ser responsable de sus acciones. En el ámbito educativo, esta 
+condición se manifiesta en tres dimensiones críticas: 
+ 
+1- Sesgos y desinformación: El uso de chatbots sin supervisión expone a 
+los menores a “riesgos relacionados con la privacidad, la desinformación 
+y su desarrollo emocional” (Andina, 2026). 
+ 
+2- Privatización de datos: La privacidad constituye “el combustible que 
+alimenta los algoritmos”. Organismos de ciberseguridad recomiendan no 
+compartir información institucional con sistemas de IA (Andina, 2026). 
+La UNESCO (2025) añade que una de cada cuatro escuelas primarias 
+carece de electricidad y el 60% no dispone de conexión a Internet, 
+mientras los recursos estatales se reorientan hacia la IA. 
+ 
+3- Ampliación de la brecha: “Herramientas premium podrían generar una 
+brecha entre estudiantes” (Infobae, 2025). El acceso a Internet de alta 
+velocidad es esencial para ejercer el derecho a la educación, pero solo 
+el 40% de las escuelas primarias del mundo dispone de dicha conexión 
+(UNESCO, 2024). 
+ 
+UNESCO lo confirma: 1 de cada 4 escuelas primarias no tiene electricidad y 
+60% no tiene Internet. Solo 40% de primarias del mundo tiene conexión de alta 
+velocidad. La IA no democratiza: amplifica. Por eso The Brookings Institution 
+(2026) lo comentó “los riesgos de la IA escolar hoy superan sus beneficios 
+potenciales”. No porque sea mala si no porque opera sin que “nadie se haga 
+responsable por sus fallos”. Se nos está mostrando que muchas escuelas 
+todavía no tienen lo más básico, entonces cuando llega la inteligencia artificial, 
+no todos pueden usarla por igual. ¿El problema? La IA funciona mejor donde 
+ya hay recursos (buena conexión, dispositivos, capacitación). Eso significa que: 
+Las escuelas con más recursos avanzan más rápido y las que tienen menos, 
+se quedan aún más atrás. 
+Por eso la IA no “democratiza” (no hace todo más justo), sino que “amplifica” 
+las diferencias que ya existen. 
+ 
+Conclusión: 
+El poder de la tecnología educativa no radica en su capacidad de servir al 
+usuario, sino en su habilidad para redefinir el ambiente en el que se ejerce el 
+poder. Su dominio se ejerce mediante la sutileza: influye en los procesos 
+cognitivos (la forma en la que pensamos), opera sin transparencia algorítmica, 
+
+diluye la responsabilidad y moldea la producción creativa es decir la creatividad 
+de las personas. La perspectiva que tiene cada persona sobre la IA la elección 
+de utilizar una aplicación constituye la trampa más eficaz del sistema. Está en 
+cada uno de nosotros en utilizar de forma correcta y crítica. 
+Mientras el usuario es un agente individual, la IA representa una red compleja 
+de algoritmos y corporaciones cuyos objetivos no necesariamente coinciden 
+con el bien pedagógico. Por consiguiente, el poder se encuentra 
+estructuralmente desequilibrado. La respuesta no consiste en la prohibición ni, 
+sino en el desarrollo de marcos regulatorios, alfabetización crítica y 
+gobernanza ética que devuelvan la centralidad a usarla de forma responsable. 
+Creer que controlamos la app es la trampa. El control real está en el diseño del 
+sistema. La IA es una red de algoritmos + corporaciones con objetivos que no 
+son nuestro 10 en el examen. 
+Y la única forma de nivelar es dejar de usarla como calculadora y empezar a 
+usarla como espejo: para ver qué te está haciendo pensar, y qué te está 
+evitando pensar, porque la IA no es mala, si no está mal el solo depender para 
+todo de esta nueva tecnología que se nos ofrece, ya que a ayudado a muchos 
+estudiantes, pero a otros les ha restado el uso de su propio razonamiento. 
+Ahora está en aprender a usarla de forma correcta para el bienestar de cada 
+estudiante ya que no toda la vida pueden depender de la IA. 
+ 
+Referencias 
+ 
+Aguirre, O. (2024). La influencia de la inteligencia artificial en la productividad 
+académica de docentes de pregrado. Revista Plus Economía, 55–65. 
+https://doi.org/10.59722/pluseconomia.v12i2.799 
+ 
+Del Cisne Loján, M., et al. (2024). Consecuencias de la Dependencia de la IA en 
+Habilidades Críticas. Ciencia Latina, 8(2), 2368–2382. 
+https://doi.org/10.37811/cl_rcm.v8i2.10678 
+ 
+Infobae. (2025). La inteligencia artificial en la educación: cinco transformaciones 
+clave para 2025. 
+ 
+
+IIPE UNESCO. (2024). Planificar la educación para y con la inteligencia artificial (IA). 
+https://www.iiep.unesco.org/es/planificar-la-educacion-para-y-con-la-inteligencia-
+artificial-ia-y-otras-herramientas-digitales 
+ 
+Martínez Bonilla, I. (2025). IA generativa en los procesos de enseñanza-aprendizaje. 
+Revista Psicología Educativa, 13. 
+https://doi.org/10.22201/fpsic.24486957e.2025.13.146 
+ 
+Observatorio Tec. (2025, mayo 30). ¿La IA generativa puede dañar el aprendizaje? 
+https://observatorio.tec.mx/la-ia-generativa-puede-afectar-el-aprendizaje/ 
+ 
+The Brookings Institution. (2026, enero 15). La IA en educación: riesgos y beneficios 
+en 2026.  
+ 
+UNESCO. (2024). Guía para el uso de IA generativa en educación e investigación. 
+https://unesdoc.unesco.org/ark:/48223/pf0000389901 
+ 
+UNESCO. (2024). Marcos de competencias en materia de IA para estudiantes y 
+docentes. Límite de edad: 13 años. 
+ 
+UNESCO. (2024). Qué debe saber sobre la IA y el derecho a la educación. 
+https://www.unesco.org/es/articles/que-debe-saber-sobre-la-ia-y-el-derecho-la-
+educacion 
+ 
+UNESCO. (2025, enero 24). La UNESCO dedica el Día Internacional de la Educación 
+2025 a la IA. 
+ 
+UNESCO. (2026, abril 14). La UNESCO lanza el Observatorio de IA en Educación para 
+ALC.  
+ 
+
+UNESCO IESALC. (2024). Los retos de la IA en la educación superior y el imperativo de 
+los marcos de competencias. 
+ 
+UVM. (2026). ¿Qué es la inteligencia artificial en la educación y cómo se aplica en 
+2026? Blog UVM. 
+Fuentes 2024-2026: UNESCO, Brookings, IIPE. Nadie más va a tener el Observatorio 
+de abril 2026 citado. 
+ 
+ 

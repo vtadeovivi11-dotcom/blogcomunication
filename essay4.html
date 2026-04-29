@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +23,9 @@
     </script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-darker text-slate-200 font-sans antialiased min-h-screen flex flex-col selection:bg-accent selection:text-white">
+
+<body
+    class="bg-darker text-slate-200 font-sans antialiased min-h-screen flex flex-col selection:bg-accent selection:text-white">
 
     <!-- Navigation -->
     <nav class="fixed w-full z-50 glass border-b border-white/10">
@@ -31,19 +34,28 @@
                 <!-- Logo -->
                 <div class="flex-shrink-0">
                     <a href="index.html" class="flex items-center gap-2">
-                        <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-500 to-accent flex items-center justify-center font-bold text-white shadow-lg shadow-accent/20">IA</div>
-                        <span class="font-bold text-xl tracking-tight">IA<span class="text-accent">+</span>educación</span>
+                        <div
+                            class="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-500 to-accent flex items-center justify-center font-bold text-white shadow-lg shadow-accent/20">
+                            IA</div>
+                        <span class="font-bold text-xl tracking-tight">IA<span
+                                class="text-accent">+</span>educación</span>
                     </a>
                 </div>
                 <!-- Desktop Menu -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="index.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
-                        <a href="article.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Artículo</a>
-                        <a href="multimedia.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Multimedia</a>
-                        <a href="review.html" class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Reseña</a>
-                        <a href="essays.html" class="text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Ensayos</a>
-                        <a href="resources.html" class="text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Recursos</a>
+                        <a href="index.html"
+                            class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+                        <a href="article.html"
+                            class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Artículo</a>
+                        <a href="multimedia.html"
+                            class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Multimedia</a>
+                        <a href="review.html"
+                            class="text-gray-300 hover:text-white hover:text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Reseña</a>
+                        <a href="essays.html"
+                            class="text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Ensayos</a>
+                        <a href="resources.html"
+                            class="text-accent transition-colors px-3 py-2 rounded-md text-sm font-medium">Recursos</a>
                     </div>
                 </div>
             </div>
@@ -53,52 +65,211 @@
     <!-- Article Content -->
     <main class="flex-grow pt-24 pb-20">
         <article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <a href="essays.html" class="inline-flex items-center text-accent hover:text-accentHover mb-8 transition-colors">
-            <a href="resources.html" class="inline-flex items-center text-accent hover:text-accentHover mb-8 transition-colors">
-                <svg class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
-                Volver a Ensayos
-            </a>
+            <a href="essays.html"
+                class="inline-flex items-center text-accent hover:text-accentHover mb-8 transition-colors">
+                <a href="resources.html"
+                    class="inline-flex items-center text-accent hover:text-accentHover mb-8 transition-colors">
+                    <svg class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Volver a Ensayos
+                </a>
 
-            <!-- Article Header -->
-            <header class="mb-10">
-                <div class="inline-block px-3 py-1 mb-4 rounded-full bg-accent/20 text-accent text-sm font-semibold tracking-wide">Ensayo 4</div>
-                <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">El rol de la IA en el aula</h1>
-                <div class="flex items-center gap-4 text-gray-400 text-sm">
-                    <span>Por Lizeth S. Sulub May</span>
-                </div>
-            </header>
-
-            <!-- Featured Image -->
-            <div class="mb-12 rounded-2xl overflow-hidden shadow-2xl border border-white/10 relative pb-[50%]">
-                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=1200&h=600" alt="IA en el aula" class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700">
-            </div>
-
-            <!-- Prose/Text Content -->
-            <div class="prose prose-invert prose-lg max-w-none prose-a:text-accent hover:prose-a:text-accentHover">
-                <p class="lead text-xl text-gray-300 font-light mb-8">
-                    El documento completo se encuentra disponible para su lectura. Puedes visualizarlo o descargarlo a continuación.
-                </p>
-
-                <div class="mt-12 p-6 bg-white/5 border border-white/10 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-1">Documento Original</h3>
-                        <p class="text-gray-400 text-sm">Visualiza o descarga el ensayo en formato PDF.</p>
+                <!-- Article Header -->
+                <header class="mb-10">
+                    <div
+                        class="inline-block px-3 py-1 mb-4 rounded-full bg-accent/20 text-accent text-sm font-semibold tracking-wide">
+                        Ensayo 4</div>
+                    <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">El rol de la IA en el aula</h1>
+                    <div class="flex items-center gap-4 text-gray-400 text-sm">
+                        <span>Por Lizeth S. Sulub May</span>
                     </div>
-                    <a href="documentos_com/EnsayoLizeth.pdf" download="Ensayo_Lizeth.pdf" target="_blank" class="px-6 py-3 rounded-xl bg-accent hover:bg-accentHover text-white font-semibold transition-all shadow-[0_0_15px_rgba(139,92,246,0.3)] flex items-center gap-2">
-                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
-                        Ver PDF
-                    </a>
+                </header>
+
+                <!-- Featured Image -->
+                <div class="mb-12 rounded-2xl overflow-hidden shadow-2xl border border-white/10 relative pb-[50%]">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=1200&h=600"
+                        alt="IA en el aula"
+                        class="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700">
                 </div>
-            </div>
+
+                <!-- Prose/Text Content -->
+                <div class="prose prose-invert prose-lg max-w-none prose-a:text-accent hover:prose-a:text-accentHover">
+                    <h2 class="text-2xl font-bold mb-4 text-white">Introducción</h2>
+                    <p class="mb-6 text-gray-400">
+                        La IA en educación no es una herramienta neutral: es un sistema diseñado que vuelve a definir
+                        quién aprende, cómo piensa y quién decide.
+                    </p>
+                    <p class="mb-6 text-gray-400">
+                        En 2026 nadie pregunta si la IA entra al aula, literal ya está. ChatGPT tiene 700 millones de
+                        usuarios y 64% de niños usan chatbots para tareas (Andina, 2026). Es un “gigante de algoritmos y
+                        corporaciones” que no te obliga, te acomoda. La principal aportación de la lA radica en su
+                        capacidad de adaptación. Los sistemas generativos permiten "adaptar contenidos, ritmo y
+                        ejercicios según las necesidades del estudiante", lo que conlleva a una respuesta directa al
+                        reto de analizar, aprender y razonar.
+                    </p>
+                    <p class="mb-6 text-gray-400">
+                        El acceso flexible al conocimiento que aporta, como los recursos personalizados y las consultas
+                        inmediatas amplían las oportunidades de aprendizaje fuera del horario escolar formal.
+                    </p>
+                    <p class="mb-6 text-gray-400">
+                        La ilusión de control es esta: decides usar ChatGPT para el ensayo y entonces el sistema fue
+                        diseñado para darte la respuesta rápida, no para que pienses. “Lo que hace mal son los usuarios
+                        que no saben usarla para no trabajar”. El problema no es uno mismo procrastinando. El problema
+                        es que la app está hecha para que procrastines pensando que uno avanza.
+                    </p>
+                    <p class="mb-6 text-gray-400">
+                        La UNAM lo confirma: riesgo de “pérdida de habilidades críticas o uso no reflexivo” (Martínez
+                        Bonilla, 2025). El Tec lo midió: 30% de alumnos redujo “significativamente el tiempo en tareas
+                        complejas” (Conecta, 2025). ¿Eficiencia o skip mental? Aguirre (2024) dice que la IA influye en
+                        productividad académica, pero Del Cisne Loján. (2024) advierten las “Consecuencias de la
+                        Dependencia de la IA en Habilidades Críticas”. Es decir, te vuelves más rápido, pero menos tú,
+                        dejas de pensar de analizar de razones y cuestionarte.
+                    </p>
+                    <p class="mb-6 text-gray-400">
+                        La creatividad humana no se extingue: se expande. La IA te da “nuevos lenguajes”. Un estudiante
+                        de UVM usó IA para “identificar patrones en experimentos y contrastar con literatura
+                        científica”, eso es aprender con IA. La UNESCO (2024) interviene en esta discusión mediante la
+                        publicación de Marcos de competencias en materia de IA para estudiantes y docentes, donde se
+                        establece un límite de edad recomendado de 13 años para el uso de IA en entornos escolares. El
+                        principio rector es claro: el poder creativo contemporáneo reside en “la capacidad de dialogar
+                        con lo artificial”. Dicho diálogo exige verificación constante, dado que “las herramientas de IA
+                        pueden generar información inexacta o incompleta”.
+                    </p>
+
+                    <h2 class="text-2xl font-bold mb-4 text-white">Responsabilidad: el vacío de rendición de cuentas.
+                    </h2>
+                    <p class="mb-6 text-gray-400">
+                        El mayor poder de la tecnología está en su capacidad de actuar en el mundo, pero sin ser
+                        responsable de sus acciones. En el ámbito educativo, esta condición se manifiesta en tres
+                        dimensiones críticas:
+                    </p>
+                    <ol class="list-decimal pl-6 text-gray-400 mb-6 space-y-2">
+                        <li><b>Sesgos y desinformación:</b> El uso de chatbots sin supervisión expone a los menores a
+                            “riesgos relacionados con la privacidad, la desinformación y su desarrollo emocional”
+                            (Andina, 2026).</li>
+                        <li><b>Privatización de datos:</b> La privacidad constituye “el combustible que alimenta los
+                            algoritmos”. Organismos de ciberseguridad recomiendan no compartir información institucional
+                            con sistemas de IA (Andina, 2026). La UNESCO (2025) añade que una de cada cuatro escuelas
+                            primarias carece de electricidad y el 60% no dispone de conexión a Internet, mientras los
+                            recursos estatales se reorientan hacia la IA.</li>
+                        <li><b>Ampliación de la brecha:</b> “Herramientas premium podrían generar una brecha entre
+                            estudiantes” (Infobae, 2025). El acceso a Internet de alta velocidad es esencial para
+                            ejercer el derecho a la educación, pero solo el 40% de las escuelas primarias del mundo
+                            dispone de dicha conexión (UNESCO, 2024).</li>
+                    </ol>
+                    <p class="mb-6 text-gray-400">
+                        UNESCO lo confirma: 1 de cada 4 escuelas primarias no tiene electricidad y 60% no tiene
+                        Internet. Solo 40% de primarias del mundo tiene conexión de alta velocidad. La IA no
+                        democratiza: amplifica. Por eso The Brookings Institution (2026) lo comentó “los riesgos de la
+                        IA escolar hoy superan sus beneficios potenciales”. No porque sea mala si no porque opera sin
+                        que “nadie se haga responsable por sus fallos”. Se nos está mostrando que muchas escuelas
+                        todavía no tienen lo más básico, entonces cuando llega la inteligencia artificial, no todos
+                        pueden usarla por igual. ¿El problema? La IA funciona mejor donde ya hay recursos (buena
+                        conexión, dispositivos, capacitación). Eso significa que: Las escuelas con más recursos avanzan
+                        más rápido y las que tienen menos, se quedan aún más atrás.
+                    </p>
+                    <p class="mb-6 text-gray-400">
+                        Por eso la IA no “democratiza” (no hace todo más justo), sino que “amplifica” las diferencias
+                        que ya existen.
+                    </p>
+
+                    <h2 class="text-2xl font-bold mt-10 mb-4 text-white">Conclusión</h2>
+                    <p class="mb-6 text-gray-400">
+                        El poder de la tecnología educativa no radica en su capacidad de servir al usuario, sino en su
+                        habilidad para redefinir el ambiente en el que se ejerce el poder. Su dominio se ejerce mediante
+                        la sutileza: influye en los procesos cognitivos (la forma en la que pensamos), opera sin
+                        transparencia algorítmica, diluye la responsabilidad y moldea la producción creativa es decir la
+                        creatividad de las personas. La perspectiva que tiene cada persona sobre la IA la elección de
+                        utilizar una aplicación constituye la trampa más eficaz del sistema. Está en cada uno de
+                        nosotros en utilizar de forma correcta y crítica.
+                    </p>
+                    <p class="mb-6 text-gray-400">
+                        Mientras el usuario es un agente individual, la IA representa una red compleja de algoritmos y
+                        corporaciones cuyos objetivos no necesariamente coinciden con el bien pedagógico. Por
+                        consiguiente, el poder se encuentra estructuralmente desequilibrado. La respuesta no consiste en
+                        la prohibición ni, sino en el desarrollo de marcos regulatorios, alfabetización crítica y
+                        gobernanza ética que devuelvan la centralidad a usarla de forma responsable.
+                    </p>
+                    <p class="mb-6 text-gray-400">
+                        Creer que controlamos la app es la trampa. El control real está en el diseño del sistema. La IA
+                        es una red de algoritmos + corporaciones con objetivos que no son nuestro 10 en el examen. Y la
+                        única forma de nivelar es dejar de usarla como calculadora y empezar a usarla como espejo: para
+                        ver qué te está haciendo pensar, y qué te está evitando pensar, porque la IA no es mala, si no
+                        está mal el solo depender para todo de esta nueva tecnología que se nos ofrece, ya que a ayudado
+                        a muchos estudiantes, pero a otros les ha restado el uso de su propio razonamiento. Ahora está
+                        en aprender a usarla de forma correcta para el bienestar de cada estudiante ya que no toda la
+                        vida pueden depender de la IA.
+                    </p>
+
+                    <h2 class="text-2xl font-bold mt-10 mb-4 text-white">Referencias bibliográficas</h2>
+                    <ul class="list-disc pl-6 text-gray-400 mb-6">
+                        <li>Aguirre, O. (2024). La influencia de la inteligencia artificial en la productividad
+                            académica de docentes de pregrado. Revista Plus Economía, 55–65. <a
+                                href="https://doi.org/10.59722/pluseconomia.v12i2.799"
+                                target="_blank">https://doi.org/10.59722/pluseconomia.v12i2.799</a></li>
+                        <li>Del Cisne Loján, M., et al. (2024). Consecuencias de la Dependencia de la IA en Habilidades
+                            Críticas. Ciencia Latina, 8(2), 2368–2382. <a
+                                href="https://doi.org/10.37811/cl_rcm.v8i2.10678"
+                                target="_blank">https://doi.org/10.37811/cl_rcm.v8i2.10678</a></li>
+                        <li>Infobae. (2025). La inteligencia artificial en la educación: cinco transformaciones clave
+                            para 2025.</li>
+                        <li>IIPE UNESCO. (2024). Planificar la educación para y con la inteligencia artificial (IA). <a
+                                href="https://www.iiep.unesco.org/es/planificar-la-educacion-para-y-con-la-inteligencia-artificial-ia-y-otras-herramientas-digitales"
+                                target="_blank">Enlace</a></li>
+                        <li>Martínez Bonilla, I. (2025). IA generativa en los procesos de enseñanza-aprendizaje. Revista
+                            Psicología Educativa, 13. <a href="https://doi.org/10.22201/fpsic.24486957e.2025.13.146"
+                                target="_blank">https://doi.org/10.22201/fpsic.24486957e.2025.13.146</a></li>
+                        <li>Observatorio Tec. (2025, mayo 30). ¿La IA generativa puede dañar el aprendizaje? <a
+                                href="https://observatorio.tec.mx/la-ia-generativa-puede-afectar-el-aprendizaje/"
+                                target="_blank">https://observatorio.tec.mx/la-ia-generativa-puede-afectar-el-aprendizaje/</a>
+                        </li>
+                        <li>The Brookings Institution. (2026, enero 15). La IA en educación: riesgos y beneficios en
+                            2026.</li>
+                        <li>UNESCO. (2024). Guía para el uso de IA generativa en educación e investigación. <a
+                                href="https://unesdoc.unesco.org/ark:/48223/pf0000389901"
+                                target="_blank">https://unesdoc.unesco.org/ark:/48223/pf0000389901</a></li>
+                        <li>UNESCO. (2024). Marcos de competencias en materia de IA para estudiantes y docentes. Límite
+                            de edad: 13 años.</li>
+                        <li>UNESCO. (2024). Qué debe saber sobre la IA y el derecho a la educación. <a
+                                href="https://www.unesco.org/es/articles/que-debe-saber-sobre-la-ia-y-el-derecho-la-educacion"
+                                target="_blank">Enlace</a></li>
+                        <li>UNESCO. (2025, enero 24). La UNESCO dedica el Día Internacional de la Educación 2025 a la
+                            IA.</li>
+                        <li>UNESCO. (2026, abril 14). La UNESCO lanza el Observatorio de IA en Educación para ALC.</li>
+                        <li>UNESCO IESALC. (2024). Los retos de la IA en la educación superior y el imperativo de los
+                            marcos de competencias.</li>
+                        <li>UVM. (2026). ¿Qué es la inteligencia artificial en la educación y cómo se aplica en 2026?
+                            Blog UVM.</li>
+                    </ul>
+
+                    <div
+                        class="mt-12 p-6 bg-white/5 border border-white/10 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-1">Documento Original</h3>
+                            <p class="text-gray-400 text-sm">Visualiza o descarga el ensayo en formato PDF.</p>
+                        </div>
+                        <a href="documentos_com/EnsayoLizeth.pdf" download="Ensayo_Lizeth.pdf" target="_blank"
+                            class="px-6 py-3 rounded-xl bg-accent hover:bg-accentHover text-white font-semibold transition-all shadow-[0_0_15px_rgba(139,92,246,0.3)] flex items-center gap-2">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            </svg>
+                            Ver PDF
+                        </a>
+                    </div>
+                </div>
         </article>
 
     </main>
 
     <footer class="bg-darker border-t border-white/10 py-10 mt-auto">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p class="text-gray-500 text-sm">© 2026 Proyecto Universitario.</p>
         </div>
     </footer>
     <script src="main.js"></script>
 </body>
+
 </html>
